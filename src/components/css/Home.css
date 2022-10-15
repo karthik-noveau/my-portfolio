@@ -327,6 +327,9 @@
         width: 100%;
         padding: 13px 0px;
     }
+    .highlights_cont ul li{
+        font-size:14px;
+    }
 
 
 }

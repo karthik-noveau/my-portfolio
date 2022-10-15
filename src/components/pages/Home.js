@@ -72,7 +72,7 @@ function Home() {
                     <div className="abt_discription_main_cont" >
                         <div className="abt_discription_cont">
                             <p>
-                                Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.
+                                &emsp;Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.
                             </p>
                             <div className="highlights_cont">
                                 <p >Here are a Few Highlights:</p>

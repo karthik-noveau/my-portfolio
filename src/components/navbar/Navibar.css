@@ -1,0 +1,73 @@
+.container1 button {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+}
+
+.right_items {
+    font-size: 25px;
+    padding: 9px 0px;
+    font-weight: 500;
+}
+
+.title2{
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: -15px;
+}
+.bg-dark {
+    background-color: #24263b !important;
+}
+
+/* button focus turn off from bootsrap */
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.right_items .item{
+    margin:0px 20px;
+     
+}
+.navbar-nav .nav-link.active{
+    color:#e6472f !important;
+}
+.nav-link{
+    color:white !important;
+}
+ 
+
+
+
+
+/* responsive below 700px */
+@media(max-width:700px) {
+
+
+    /* mb slider open as center */
+    .container {
+        margin: 0px 18px !important;
+    }
+    .right_items a.nav-link {
+        text-align: center;
+        padding:0px 10px ;
+    }
+
+}
+
+
+/* responsive above  990px */
+@media(min-width:990px) {
+    .container1{
+        height: 55px;
+    }
+    .title2 {
+        position: absolute;
+        top: 7px;
+        left: 58px;
+    }
+    
+    .title2 {
+        font-size: 31px;
+        font-weight: bold;
+        margin-left: -15px;
+    }
+}

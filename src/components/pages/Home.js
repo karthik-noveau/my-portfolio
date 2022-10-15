@@ -1,7 +1,7 @@
 import Navibar from "../navbar/Navibar";
 import '../css/Home.css';
 import backgimage from '../Assests/backgimage.png'
-import karthik from '../Assests/karthik.jpeg'
+import karthik from '../Assests/karthik.jpg'
 
 import { ImYoutube2 } from 'react-icons/im'
 import { AiFillGooglePlusSquare, AiFillFacebook, AiOutlineInstagram, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
@@ -27,7 +27,8 @@ function Home() {
                                 <ImYoutube2 className="icon icon_you" />
                             </div>
                             <div className="pro_name">
-                                <p>Hello, I'm <spna>karthik</spna></p>
+                                <p>Hello, I'm <span >karthik</span></p>
+                                <p>Full stack Web developer</p>
                             </div>
                             <div className='pro_desc'>
                                 <p>Knack of building applications with front and back end operations.</p>

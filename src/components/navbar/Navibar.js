@@ -14,18 +14,18 @@ function Navibar() {
         
             </Nav>
             <Nav className='right_items'>
-              <Nav.Link href="#deets">More deets</Nav.Link>
+              <Nav.Link href="#deets">Home</Nav.Link>
               <Nav.Link eventKey={2} href="#memes" className='item'>
-                Home
-              </Nav.Link>
-              <Nav.Link eventKey={3} href="#memes" className='item'>
                 About
               </Nav.Link>
-              <Nav.Link eventKey={4} href="#memes" className='item'>
+              <Nav.Link eventKey={3} href="#memes" className='item'>
                 Skills
               </Nav.Link>
-              <Nav.Link eventKey={5} href="#memes" className='item'>
+              <Nav.Link eventKey={4} href="#memes" className='item'>
                 Projects
+              </Nav.Link>
+              <Nav.Link eventKey={5} href="#memes" className='item'>
+                Contact Me
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

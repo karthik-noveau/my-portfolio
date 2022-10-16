@@ -7,7 +7,7 @@ import abt_img from '../Assests/abt_img.png'
 import { ImYoutube2 } from 'react-icons/im'
 import { AiFillGooglePlusSquare, AiFillFacebook, AiOutlineInstagram, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { FaTwitterSquare } from 'react-icons/fa'
-import { FaUserGraduate } from 'react-icons/fa'
+import { FaUserGraduate, FaLaptopCode } from 'react-icons/fa'
 
 function Home() {
     return (
@@ -109,7 +109,7 @@ function Home() {
                             <tr>
                                 <td>Kongunadu College of Engineering and Technology</td>
                                 <td className="edu_td"><button>2016-2017</button></td>
-                                
+
                             </tr>
                             <tr>
                                 <td className="edu_top" colSpan={2}>BE and Communication Engineering</td>
@@ -153,17 +153,119 @@ function Home() {
 
 
 
-            {/* title- about me */}
+            {/* title- skills */}
             <div className="aboutme_title_container">
                 <div className="aboutme_main_title_container">
                     <p>Skills</p>
-                    <p></p>
+                    <p>Belong anywhere !</p>
                     <div className="line_container">
                         <div className="line"></div>
                         <div className="line_center_design"></div>
                     </div>
                 </div>
             </div>
+
+
+
+
+            {/* sills */}
+
+            <div className="skill_cont">
+                <div className="skill_main_cont" >
+                    <div className="skill_title">
+                        <FaLaptopCode className="skill_icon" />
+                        <p>Programing Skills</p>
+                    </div>
+
+                    <div className="skill_cont_1">
+                        <div className="skill_main_cont_2">
+
+                            <div className="skill_one">
+                                <div className="skil_content__main_cont">
+                                    <p>React Js</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+                                <div className="skil_content__main_cont">
+                                    <p>JavaScript</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+
+                                <div className="skil_content__main_cont">
+                                    <p>Express Js</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="skil_content__main_cont">
+                                    <p>Mongo Db</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                            
+                            <div  className="skill_two">
+                                <div className="skil_content__main_cont">
+                                    <p>HTML</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+                                <div className="skil_content__main_cont">
+                                    <p>CSS</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+
+                                <div className="skil_content__main_cont">
+                                    <p>Core Java</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+
+
+                               
+
+                            </div>
+
+
+                           
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
 
 
         </div>

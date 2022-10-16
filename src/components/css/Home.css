@@ -479,6 +479,10 @@ td {
     .pro_desc {
         text-align: center;
     }
+    .pro_desc p {
+        font-size: 19px;
+        margin-top: 2px;
+    }
 
     .pro_img_cont img {
         width: 200px;

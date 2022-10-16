@@ -7,6 +7,7 @@ import abt_img from '../Assests/abt_img.png'
 import { ImYoutube2 } from 'react-icons/im'
 import { AiFillGooglePlusSquare, AiFillFacebook, AiOutlineInstagram, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { FaTwitterSquare } from 'react-icons/fa'
+import { FaUserGraduate } from 'react-icons/fa'
 
 function Home() {
     return (
@@ -52,6 +53,7 @@ function Home() {
             <div className="aboutme_title_container">
                 <div className="aboutme_main_title_container">
                     <p>About Me</p>
+                    <p>Why choose me ?</p>
                     <div className="line_container">
                         <div className="line"></div>
                         <div className="line_center_design"></div>
@@ -63,8 +65,6 @@ function Home() {
 
             {/* about me  */}
             <div className="abt_main_cont">
-
-
                 <div className="abt_cont">
                     <div className="abt_img">
                         <img src={abt_img} />
@@ -72,17 +72,18 @@ function Home() {
                     <div className="abt_discription_main_cont" >
                         <div className="abt_discription_cont">
                             <p>
-                                &emsp;Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.
+                                Full stack web developer with background knowledge of MERN stacks, along with a knack of building applications with utmost efficiency.
                             </p>
                             <div className="highlights_cont">
                                 <p >Here are a Few Highlights:</p>
                                 <ul>
-                                    <li>Full Stack web and mobile development</li>
+                                    <li>Full Stack web development</li>
                                     <li>Interactive Front End as per the design</li>
-                                    <li>React and React Native</li>
-                                    <li>Redux for State Mnanagement</li>
-                                    <li>Building REST API</li>
+                                    <li>React Js</li>
                                     <li>Managing database</li>
+                                    <li>Designing using Adobe PhotoShop and Adobe Illustrator</li>
+                                    <li>Adobe Premier and Adobe Effects</li>
+
                                 </ul>
                             </div>
                             <div className='abt_button_cont'>
@@ -93,6 +94,77 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+
+
+            {/* education */}
+            <div className="edu_cont">
+                <div className="edu_main_cont" >
+                    <div className="edu_title">
+                        <FaUserGraduate className="edu_icon" />
+                        <p>Education</p>
+                    </div>
+                    <div className="edu_content">
+                        <table>
+                            <tr>
+                                <td>Kongunadu College of Engineering and Technology</td>
+                                <td className="edu_td"><button>2016-2017</button></td>
+                                
+                            </tr>
+                            <tr>
+                                <td className="edu_top" colSpan={2}>BE and Communication Engineering</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">8.4 CGPA</td>
+                            </tr>
+                        </table>
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Sri Vidhya Bharathi Higher Secondary School</td>
+                                <td className="edu_td"><button>2016-2017</button></td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top" colSpan={2}>HSC TN State Board</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">79.8 %</td>
+                            </tr>
+                        </table>
+
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Higher Secondary School Fort Namakkal</td>
+                                <td className="edu_td"><button>2016-2017</button></td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top" colSpan={2}>SSLC TN State Board</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">92 %</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            {/* title- about me */}
+            <div className="aboutme_title_container">
+                <div className="aboutme_main_title_container">
+                    <p>Skills</p>
+                    <p></p>
+                    <div className="line_container">
+                        <div className="line"></div>
+                        <div className="line_center_design"></div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     )

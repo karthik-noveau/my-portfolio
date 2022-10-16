@@ -14,7 +14,10 @@ function Navibar() {
         
             </Nav>
             <Nav className='right_items'>
-              <Nav.Link href="#deets">Home</Nav.Link>
+               
+              <Nav.Link eventKey={2} href="#memes" className='item'>
+                Home
+              </Nav.Link>
               <Nav.Link eventKey={2} href="#memes" className='item'>
                 About
               </Nav.Link>

@@ -746,4 +746,15 @@ margin-left:10px;
     }
 
 
+
+    /* res- projects */
+
+
+    .project_td{    
+            position: relative;
+            top: -28px;
+            font-size: 12px !important;
+    }
+
+
 }

@@ -303,7 +303,7 @@ function Home() {
                         <table >
                             <tr>
                                 <td>Personal Portfolio Website</td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
 
                             </tr>
                             <tr>
@@ -325,7 +325,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>Online Course Application</td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
                             <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
@@ -347,7 +347,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>Simple Calculator</td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
                             <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
@@ -369,7 +369,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>Flight Booking Application</td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
                             <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Material UI, Email Js</td>
@@ -390,7 +390,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>Book Store Website</td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
                             <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Express Js, Mongo DB, Swiper Js</td>
@@ -411,7 +411,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>Quiz Application - Ongoing project... </td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
                             <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
@@ -433,7 +433,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>File Transfer Web Application - Ongoing project...</td>
-                                <td className="edu_td"><button>2021-2022</button></td>
+                                <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
                             <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Node Js, Socket.io</td>

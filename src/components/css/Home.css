@@ -497,6 +497,22 @@ margin-left:10px;
 
 
 
+/* footer */
+
+.footer{
+    text-align:center;
+ display: flex;
+
+ justify-content:center;
+ align-items: center;
+    background-color:#24263b;
+    color:white;
+    height:50px;
+    width:100%;
+    margin-top:7px;
+    padding-top:14px;
+ 
+}
 
 /* responsive for 991px */
 

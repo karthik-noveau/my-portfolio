@@ -10,6 +10,7 @@ import { FaTwitterSquare } from 'react-icons/fa'
 import { FaUserGraduate, FaLaptopCode } from 'react-icons/fa'
 
 function Home() {
+    const date = new Date();
     return (
         <div>
 
@@ -298,7 +299,7 @@ function Home() {
             {/* Projects */}
             <div className="edu_cont porject_cont">
                 <div className="edu_main_cont" >
-                   
+
                     <div className="edu_content project_content">
                         <table >
                             <tr>
@@ -328,7 +329,7 @@ function Home() {
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
-                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
                             </tr>
                             <tr>
                                 <td className="edu_top edu_top1">An ecommerce application designed to register online courses wth payment system integration</td>
@@ -350,7 +351,7 @@ function Home() {
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
-                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
                             </tr>
                             <tr>
                                 <td className="edu_top edu_top1">Calculator designed to do correct calculations, and to do so efficiently</td>
@@ -372,7 +373,7 @@ function Home() {
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
-                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Material UI, Email Js</td>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Material UI, Email Js</td>
                             </tr>
                             <tr>
                                 <td className="edu_top edu_top1">The online flight booking application designed to book the National and International flights</td>
@@ -393,7 +394,7 @@ function Home() {
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
-                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Express Js, Mongo DB, Swiper Js</td>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Express Js, Mongo DB, Swiper Js</td>
                             </tr>
                             <tr>
                                 <td className="edu_top edu_top1">An Online book store application designed to customers can search add update delete the books</td>
@@ -414,7 +415,7 @@ function Home() {
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
-                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
                             </tr>
                             <tr>
                                 <td className="edu_top edu_top1">The quiz application designed to take online exams with attractive user interface</td>
@@ -436,7 +437,7 @@ function Home() {
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
-                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Node Js, Socket.io</td>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Node Js, Socket.io</td>
                             </tr>
                             <tr>
                                 <td className="edu_top edu_top1">Easliy transfer the files through this application system to system by enter the specific key</td>
@@ -457,7 +458,10 @@ function Home() {
 
 
 
-
+            {/* footer */}
+            <div className="footer">
+                <p>© {date.getFullYear()} All Rights reserved by karthik</p>
+            </div>
 
         </div>
     )

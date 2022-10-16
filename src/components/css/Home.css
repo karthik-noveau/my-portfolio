@@ -771,6 +771,11 @@ margin-left:10px;
             top: -28px;
             font-size: 12px !important;
     }
+    .edu_top1 {
+        position: relative;
+        top: -28px;
+        font-size: 12px;
+    }
 
 
 }

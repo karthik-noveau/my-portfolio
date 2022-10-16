@@ -485,5 +485,36 @@ td {
     .edu_table {
         margin-top: -205px !important;
     }
+    .edu_content table tr td button {
+        width: 84px;
+        border: none;
+        background-color: #ff5823;
+        border-radius: 25px;
+        font-size: 12px;
+        padding: 4px 0px;
+        font-weight: 500;
+        color: white;
+        position: relative;
+        top: -5px;
+        left: 10px;
+    }
+    .edu_content table tr:first-child td:first-child {
+        color: #ff5823;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .edu_content table tr .edu_td {
+        padding-left: 0px;
+    }
+    .edu_top {
+        position: relative;
+        top: -16px;
+        font-size: 13px;
+    }
+    .edu_top1 {
+        position: relative;
+        top: -28px;
+        font-size: 13px;
+    }
 
 }

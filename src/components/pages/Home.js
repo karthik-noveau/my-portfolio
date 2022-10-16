@@ -190,7 +190,7 @@ function Home() {
                                 </div>
 
                                 <div className="skil_content__main_cont">
-                                    <p>JavaScript</p>
+                                    <p>Node Js</p>
                                     <div className="skil_content_cont">
                                         <div className="s_rem1"></div>
                                         <div className="s_rem2"></div>
@@ -216,15 +216,24 @@ function Home() {
                                     </div>
                                 </div>
 
+
+                                <div className="skil_content__main_cont">
+                                    <p>MySql</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
                             </div>
 
 
 
 
-                            
-                            <div  className="skill_two">
+
+                            <div className="skill_two">
                                 <div className="skil_content__main_cont">
-                                    <p>HTML</p>
+                                    <p>HTML5</p>
                                     <div className="skil_content_cont">
                                         <div className="s_rem1"></div>
                                         <div className="s_rem2"></div>
@@ -232,7 +241,15 @@ function Home() {
                                 </div>
 
                                 <div className="skil_content__main_cont">
-                                    <p>CSS</p>
+                                    <p>CSS3</p>
+                                    <div className="skil_content_cont">
+                                        <div className="s_rem1"></div>
+                                        <div className="s_rem2"></div>
+                                    </div>
+                                </div>
+
+                                <div className="skil_content__main_cont">
+                                    <p>JavaScript</p>
                                     <div className="skil_content_cont">
                                         <div className="s_rem1"></div>
                                         <div className="s_rem2"></div>
@@ -247,22 +264,196 @@ function Home() {
                                         <div className="s_rem2"></div>
                                     </div>
                                 </div>
-
-
-
-                               
-
                             </div>
-
-
-                           
-
-
                         </div>
                     </div>
 
                 </div>
             </div>
+
+
+
+
+
+
+
+
+            {/* title- projects */}
+            <div className="aboutme_title_container">
+                <div className="aboutme_main_title_container">
+                    <p>Projects</p>
+                    <p>Explore The Wonders !</p>
+                    <div className="line_container">
+                        <div className="line"></div>
+                        <div className="line_center_design"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            {/* Projects */}
+            <div className="edu_cont porject_cont">
+                <div className="edu_main_cont" >
+                   
+                    <div className="edu_content project_content">
+                        <table >
+                            <tr>
+                                <td>Personal Portfolio Website</td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+
+                            </tr>
+                            <tr>
+                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">A Personal Portfolio website to showcase all my details and projects at one place.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="https://portfolio.skynoveau.in/"><button>Link</button></a>
+                                        <a href=""><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Online Course Application</td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+                            </tr>
+                            <tr>
+                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">An ecommerce application designed to register online courses wth payment system integration</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="https://skycourse.skynoveau.in"><button>Link</button></a>
+                                        <a href="https://skycourse.skynoveau.in"><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Simple Calculator</td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+                            </tr>
+                            <tr>
+                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">Calculator designed to do correct calculations, and to do so efficiently</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="https://calc.skynoveau.in/"><button>Link</button></a>
+                                        <a href="https://calc.skynoveau.in/"><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Flight Booking Application</td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+                            </tr>
+                            <tr>
+                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Material UI, Email Js</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">The online flight booking application designed to book the National and International flights</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="https://skytrip.skynoveau.in/"><button>Link</button></a>
+                                        <a href="https://skytrip.skynoveau.in/"><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Book Store Website</td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+                            </tr>
+                            <tr>
+                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Express Js, Mongo DB, Swiper Js</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">An Online book store application designed to customers can search add update delete the books</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="https://bookstore.skynoveau.in/"><button>Link</button></a>
+                                        <a href="https://bookstore.skynoveau.in/"><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>Quiz Application - Ongoing project... </td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+                            </tr>
+                            <tr>
+                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">The quiz application designed to take online exams with attractive user interface</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="#"><button>Link</button></a>
+                                        <a href="#"><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        <table className="edu_table">
+                            <tr>
+                                <td>File Transfer Web Application - Ongoing project...</td>
+                                <td className="edu_td"><button>2021-2022</button></td>
+                            </tr>
+                            <tr>
+                            <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Node Js, Socket.io</td>
+                            </tr>
+                            <tr>
+                                <td className="edu_top edu_top1">Easliy transfer the files through this application system to system by enter the specific key</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div className="project_buttons">
+                                        <a href="#"><button>Link</button></a>
+                                        <a href="#"><button>Demo</button></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
 
 
 

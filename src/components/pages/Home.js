@@ -37,8 +37,8 @@ function Home() {
                                 <p>Knack of building applications with front and back end operations.</p>
                             </div>
                             <div className='pro_button_cont'>
-                                <button>Hide Me</button>
-                                <button>Get Resume</button>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download><button>Hire Me</button></a>
+                                <a><button>Get Resume</button></a>
                             </div>
                         </div>
                         <div className="pro_img_cont">

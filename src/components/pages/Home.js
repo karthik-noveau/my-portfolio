@@ -280,7 +280,7 @@ function Home() {
 
 
             {/* title- projects */}
-            <div className="aboutme_title_container">
+            <div className="aboutme_title_container" id="projects">
                 <div className="aboutme_main_title_container">
                     <p>Projects</p>
                     <p>Explore The Wonders !</p>

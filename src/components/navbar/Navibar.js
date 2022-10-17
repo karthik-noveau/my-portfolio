@@ -15,7 +15,7 @@ function Navibar() {
             </Nav>
             <Nav className='right_items'>
                
-              <Nav.Link eventKey={2} href="" className='item'>
+              <Nav.Link eventKey={1} href="" className='item'>
                 Home
               </Nav.Link>
               <Nav.Link eventKey={2} href="#aboutme" className='item'>
@@ -24,7 +24,7 @@ function Navibar() {
               <Nav.Link eventKey={3} href="#skills" className='item'>
                 Skills
               </Nav.Link>
-              <Nav.Link eventKey={4} href="#memes" className='item'>
+              <Nav.Link eventKey={4} href="#projects" className='item'>
                 Projects
               </Nav.Link>
               <Nav.Link eventKey={5} href="#memes" className='item'>

@@ -51,7 +51,7 @@ function Home() {
 
 
             {/* title- about me */}
-            <div className="aboutme_title_container">
+            <div className="aboutme_title_container" id="aboutme">
                 <div className="aboutme_main_title_container">
                     <p>About Me</p>
                     <p>Why choose me ?</p>
@@ -155,7 +155,7 @@ function Home() {
 
 
             {/* title- skills */}
-            <div className="aboutme_title_container">
+            <div className="aboutme_title_container" id="skills">
                 <div className="aboutme_main_title_container">
                     <p>Skills</p>
                     <p>Belong anywhere !</p>

@@ -48,7 +48,12 @@
     }
     .right_items a.nav-link {
         text-align: center;
-        padding:0px 10px ;
+        padding:27px 10px ;
+    }
+    .right_items {
+        font-size: 20px !important;
+        padding: 27px 0px;
+        font-weight: 300 !important;
     }
 
 }
@@ -70,4 +75,5 @@
         font-weight: bold;
         margin-left: -15px;
     }
+  
 }

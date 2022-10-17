@@ -43,12 +43,11 @@
     padding: 13px 35px;
     font-weight: 700;
     font-size: 14px;
-    background-color: #ff5823;
     color: white;
 }
 
 .pro_button_cont button:first-child {
-    background-color: #24263b;
+    background-color: #24263b !important;
     border: 2px solid;
 }
 
@@ -59,6 +58,18 @@
 .pro_button_cont button:last-child:hover {
     background-color: #ff5823 !important;
     color: #24263b;
+}
+
+.pro_button_cont button:last-child {
+    background-color: #ff5823 !important;
+    color: #24263b;
+}
+.profile_button_cont{
+        margin-top: 22px !important;
+}
+.profile_button_cont button a{
+    text-decoration: none;
+    color:#24263b
 }
 
 .pro_icon_cont .icon {

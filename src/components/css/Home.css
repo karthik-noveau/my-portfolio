@@ -490,9 +490,7 @@ td {
 margin-left:10px;
 }
 .project_content table {
-    border-collapse: separate;
-    border-spacing: 0 18px;
-    margin-top: -209px;
+    margin-top: -187px !important;
 }
 
 
@@ -766,15 +764,27 @@ margin-left:10px;
     /* res- projects */
 
 
-    .project_td{    
-            position: relative;
-            top: -28px;
-            font-size: 12px !important;
-    }
-    .edu_top1 {
+    .project_td {
         position: relative;
-        top: -28px;
-        font-size: 12px;
+        top: 9px;
+        font-size: 12px !important;
+    }
+    .porject_cont {
+        margin-top: 50px !important;
+    }
+    .project_td:nth-child(7){
+        top:10px;
+    }
+    .project_content table:nth-child(7) .project_td {
+        position: relative;
+        top: -3px;
+    }
+
+
+    /* res-footer */
+
+    .footer {
+        font-size: 13px;
     }
 
 

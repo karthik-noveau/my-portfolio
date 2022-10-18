@@ -22,12 +22,12 @@ function Home() {
                     <div className="pro_main_cont">
                         <div className='pro_txt_cont'>
                             <div className="pro_icon_cont">
-                                <AiFillLinkedin className="icon" />
-                                <AiFillGooglePlusSquare className="icon" />
-                                <AiFillFacebook className="icon" />
-                                <AiOutlineInstagram className="icon" />
-                                <FaTwitterSquare className="icon icon_tiw" />
-                                <ImYoutube2 className="icon icon_you" />
+                                <a href="https://www.linkedin.com/in/karthik-b-736308209/"><AiFillLinkedin className="icon" /></a>
+                                <a href="https://myaccount.google.com/profile"><AiFillGooglePlusSquare className="icon" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100046117488268"><AiFillFacebook className="icon" /></a>
+                                <a href="https://www.instagram.com/karthik_noveau/"><AiOutlineInstagram className="icon" /></a>
+                                <a href="https://twitter.com/karthik_noveau"><FaTwitterSquare className="icon icon_tiw" /></a>
+                                <a href="https://www.youtube.com/channel/UCnl4Bp2_kQkMfRasUMHamfA"><ImYoutube2 className="icon icon_you" /></a>
                             </div>
                             <div className="pro_name">
                                 <p>Hello, I'm <span >karthik</span></p>

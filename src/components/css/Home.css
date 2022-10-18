@@ -876,6 +876,9 @@ margin-left:10px;
         align-items: center;
         margin-top: 10px;
     }
+    .cont_icon{
+        margin-top: -12px;
+    }
     
 
 
@@ -884,11 +887,11 @@ margin-left:10px;
 
     .footer {
         font-size: 13px;
-        padding: 40px;
-        margin-top:0px;
+        padding: 17px;
+        margin-top: 0px;
     }
     .footer p {
-        padding: 50px 0px 20px 0px;
+        padding: 21px 0px 1px 0px;
     }
 
 

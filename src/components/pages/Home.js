@@ -488,7 +488,7 @@ function Home() {
                 <div className="contact_main_cont">
                     <div className="contact_cont_1">
                         <p>Get In Touch</p>
-                        <div className="pro_icon_cont">
+                        <div className="pro_icon_cont cont_icon">
                             <a href="https://www.linkedin.com/in/karthik-b-736308209/"><AiFillLinkedin className="icon" /></a>
                             <a href="https://myaccount.google.com/profile"><AiFillGooglePlusSquare className="icon" /></a>
                             <a href="https://www.facebook.com/profile.php?id=100046117488268"><AiFillFacebook className="icon" /></a>

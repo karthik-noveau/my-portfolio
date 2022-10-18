@@ -432,28 +432,6 @@ function Home() {
                                 </td>
                             </tr>
                         </table>
-
-
-                        <table className="edu_table">
-                            <tr>
-                                <td>File Transfer Web Application - Ongoing project...</td>
-                                <td className="edu_td project_td"><button>2021-2022</button></td>
-                            </tr>
-                            <tr>
-                                <td className="edu_top project_edu_top" colSpan={2}><span className="tech_used">Technology Used :</span> React Js, Node Js, Socket.io</td>
-                            </tr>
-                            <tr>
-                                <td className="edu_top edu_top1">Easily transfer the files through this application system to system by enter the specific key</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div className="project_buttons">
-                                        <a href="#"><button>Link</button></a>
-                                        <a href="#"><button>Demo</button></a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
             </div>

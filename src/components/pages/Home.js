@@ -112,7 +112,7 @@ function Home() {
                         <table>
                             <tr>
                                 <td>Kongunadu College of Engineering and Technology</td>
-                                <td className="edu_td"><button>2016-2017</button></td>
+                                <td className="edu_td"><button>2019-2023</button></td>
 
                             </tr>
                             <tr>
@@ -126,7 +126,7 @@ function Home() {
                         <table className="edu_table">
                             <tr>
                                 <td>Sri Vidhya Bharathi Higher Secondary School</td>
-                                <td className="edu_td"><button>2016-2017</button></td>
+                                <td className="edu_td"><button>2017-2019</button></td>
                             </tr>
                             <tr>
                                 <td className="edu_top" colSpan={2}>HSC TN State Board</td>

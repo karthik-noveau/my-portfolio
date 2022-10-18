@@ -3,11 +3,14 @@ import '../css/Home.css';
 import backgimage from '../Assests/backgimage.png'
 import karthik from '../Assests/karthik.jpg'
 import abt_img from '../Assests/abt_img.png'
+import contact_bg from '../Assests/contact_bg.jpeg'
+import getintotouch from '../Assests/getintotouch.jpg'
 
 import { ImYoutube2 } from 'react-icons/im'
 import { AiFillGooglePlusSquare, AiFillFacebook, AiOutlineInstagram, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { FaTwitterSquare } from 'react-icons/fa'
 import { FaUserGraduate, FaLaptopCode } from 'react-icons/fa'
+import GoogleMap from "./Map";
 
 function Home() {
     const date = new Date();
@@ -39,7 +42,7 @@ function Home() {
                             <div className='abt_button_cont profile_button_cont'>
                                 <button>Hire Me</button>
                                 <button><a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download>Get Resume</a></button>
-                                </div>
+                            </div>
                         </div>
                         <div className="pro_img_cont">
                             <img src={karthik} />
@@ -472,6 +475,40 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+            {/* contact */}
+            <div className="contact_cont">
+                <div className="contact_main_cont">
+                    <div className="contact_cont_1">
+                        <p>Get In Touch</p>
+                        <div className="pro_icon_cont">
+                            <a href="https://www.linkedin.com/in/karthik-b-736308209/"><AiFillLinkedin className="icon" /></a>
+                            <a href="https://myaccount.google.com/profile"><AiFillGooglePlusSquare className="icon" /></a>
+                            <a href="https://www.facebook.com/profile.php?id=100046117488268"><AiFillFacebook className="icon" /></a>
+                            <a href="https://www.instagram.com/karthik_noveau/"><AiOutlineInstagram className="icon" /></a>
+                            <a href="https://twitter.com/karthik_noveau"><FaTwitterSquare className="icon icon_tiw" /></a>
+                            <a href="https://www.youtube.com/channel/UCnl4Bp2_kQkMfRasUMHamfA"><ImYoutube2 className="icon icon_you" /></a>
+                        </div>
+                        <img src={getintotouch} className="getIntoImg"/>
+
+                    </div>
+                    <div className="contact_cont_2">
+                        <GoogleMap className="map_cont"/>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
 
 
 

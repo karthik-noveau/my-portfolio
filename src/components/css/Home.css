@@ -45,6 +45,16 @@
     font-size: 14px;
     color: white;
 }
+.hire_btn{
+    text-decoration: none;
+    color:white !important;
+    cursor: pointer;
+}
+.res_btn{
+    text-decoration:none;
+    color: #24263b;
+    cursor: pointer;
+}
 
 .pro_button_cont button:first-child {
     background-color: #24263b !important;

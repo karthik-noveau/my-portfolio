@@ -40,7 +40,7 @@ function Home() {
                                 <p>Knack of building applications with front and back end operations.</p>
                             </div>
                             <div className='abt_button_cont profile_button_cont'>
-                                <button>Hire Me</button>
+                                <button><a href="#contact" className="hire_btn">Hire Me</a></button>
                                 <button><a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download>Get Resume</a></button>
                             </div>
                         </div>
@@ -91,8 +91,8 @@ function Home() {
                                 </ul>
                             </div>
                             <div className='abt_button_cont'>
-                                <button>Hire Me</button>
-                                <button>Get Resume</button>
+                                <button><a href="#contact" className="hire_btn">Hire Me</a></button>
+                                <button><a className="res_btn" href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download>Get Resume</a></button>
                             </div>
                         </div>
                     </div>
@@ -474,11 +474,11 @@ function Home() {
                             <a href="https://twitter.com/karthik_noveau"><FaTwitterSquare className="icon icon_tiw" /></a>
                             <a href="https://www.youtube.com/channel/UCnl4Bp2_kQkMfRasUMHamfA"><ImYoutube2 className="icon icon_you" /></a>
                         </div>
-                        <img src={getintotouch} className="getIntoImg"/>
+                        <img src={getintotouch} className="getIntoImg" />
 
                     </div>
                     <div className="contact_cont_2">
-                        <GoogleMap className="map_cont"/>
+                        <GoogleMap className="map_cont" />
                     </div>
 
                 </div>

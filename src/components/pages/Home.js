@@ -465,7 +465,7 @@ function Home() {
 
 
             {/* title- projects */}
-            <div className="aboutme_title_container" id="projects">
+            <div className="aboutme_title_container" id="contact">
                 <div className="aboutme_main_title_container">
                     <p>Contact Me</p>
                     <p>Lets Keep In Touch</p>

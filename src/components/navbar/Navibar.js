@@ -27,7 +27,7 @@ function Navibar() {
               <Nav.Link eventKey={4} href="#projects" className='item'>
                 Projects
               </Nav.Link>
-              <Nav.Link eventKey={5} href="#memes" className='item'>
+              <Nav.Link eventKey={5} href="#contact" className='item'>
                 Contact Me
               </Nav.Link>
             </Nav>

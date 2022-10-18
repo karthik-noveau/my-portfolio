@@ -563,6 +563,17 @@ margin-left:10px;
     .pro_name p {
         font-size: 22px;
     }
+    .pro_name {
+        width: 97vw;
+        margin-left: 3vw;
+    }
+    .abt_button_cont {
+        width: 92%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
 
     .home_back_img {
         width: 100%;

@@ -458,6 +458,26 @@ function Home() {
 
 
 
+
+
+
+            {/* title- projects */}
+            <div className="aboutme_title_container" id="projects">
+                <div className="aboutme_main_title_container">
+                    <p>Contact Me</p>
+                    <p>Lets Keep In Touch</p>
+                    <div className="line_container">
+                        <div className="line"></div>
+                        <div className="line_center_design"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
             {/* footer */}
             <div className="footer">
                 <p>© {date.getFullYear()} All Rights reserved by karthik</p>

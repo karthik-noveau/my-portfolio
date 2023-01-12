@@ -267,7 +267,7 @@
     width: 162px;
     margin: 0px 20px;
     border-radius: 25px;
-    padding: 13px 35px;
+    padding: 13px 0px;
     font-weight: 700;
     font-size: 14px;
     background-color:#24263b;
@@ -284,6 +284,7 @@
     background-color: transparent;
     font-weight: 700;
     color: white;
+    width: 160px;
 }
 
 .abt_button_cont a:last-child {
@@ -291,7 +292,7 @@
     margin: 0px 20px;
     border-radius: 25px;
     border: none;
-    padding: 13px 35px;
+    padding: 13px 0;
     font-weight: 700;
     font-size: 14px;
     background-color: #ff5823;
@@ -302,6 +303,8 @@
     border: none;
     background-color: transparent;
     font-weight: 700;
+    width: 160px;
+    text-align: center;
 }
 
 
@@ -944,4 +947,45 @@ td {
     }
 
 
+}
+@media(max-width:425px){
+    .abt_button_cont a:first-child {
+        width: 154px;
+        margin: 0px 20px;
+        padding:7px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .abt_button_cont a:last-child {
+        width: 154px;
+        margin: 0px 20px;
+        padding:9px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .abt_button_cont {
+        margin-top: 13px;
+    }
+}
+@media(max-width:375px){
+    .abt_button_cont a:first-child {
+        width:130px;
+        margin: 0px 20px;
+        padding:7px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .abt_button_cont a:last-child {
+        width:130px;
+        margin: 0px 20px;
+        padding: 9px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .abt_button_cont {
+        margin-top: 13px;
+    }
+    .abt_button_cont a:first-child button, .abt_button_cont a:last-child button{
+        width: 130px;
+    }
 }

@@ -39,9 +39,9 @@ function Home() {
                             <div className='pro_desc'>
                                 <p>Knack of building applications with front and back end operations.</p>
                             </div>
-                            <div className='abt_button_cont profile_button_cont'>
-                                <button><a href="#contact" className="hire_btn">Hire Me</a></button>
-                                <button><a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download>Get Resume</a></button>
+                            <div className='abt_button_cont'>
+                                <a href="#contact"><button>Hire Me</button></a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download> <button>Get Resume</button></a>
                             </div>
                         </div>
                         <div className="pro_img_cont">
@@ -91,8 +91,8 @@ function Home() {
                                 </ul>
                             </div>
                             <div className='abt_button_cont'>
-                                <button><a href="#contact" className="hire_btn">Hire Me</a></button>
-                                <button><a className="res_btn" href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download>Get Resume</a></button>
+                                <a href="#contact"><button>Hire Me</button></a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download> <button>Get Resume</button></a>
                             </div>
                         </div>
                     </div>
@@ -186,18 +186,18 @@ function Home() {
 
                             <div className="skill_one">
                                 <div className="skil_content__main_cont">
-                                    <p>React Js</p>
+                                    <p>React 18</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 reactjs1"></div>
+                                        <div className="s_rem2 reactjs2"></div>
                                     </div>
                                 </div>
 
                                 <div className="skil_content__main_cont">
                                     <p>Node Js</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 nodejs1"></div>
+                                        <div className="s_rem2 nodejs2"></div>
                                     </div>
                                 </div>
 
@@ -205,8 +205,8 @@ function Home() {
                                 <div className="skil_content__main_cont">
                                     <p>Express Js</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 nodejs1"></div>
+                                        <div className="s_rem2 nodejs2"></div>
                                     </div>
                                 </div>
 
@@ -215,8 +215,8 @@ function Home() {
                                 <div className="skil_content__main_cont">
                                     <p>Mongo Db</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 nodejs1"></div>
+                                        <div className="s_rem2 nodejs2"></div>
                                     </div>
                                 </div>
 
@@ -224,8 +224,8 @@ function Home() {
                                 <div className="skil_content__main_cont">
                                     <p>MySql</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 nodejs1"></div>
+                                        <div className="s_rem2 nodejs2"></div>
                                     </div>
                                 </div>
 
@@ -239,24 +239,24 @@ function Home() {
                                 <div className="skil_content__main_cont">
                                     <p>HTML5</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 reactjs1"></div>
+                                        <div className="s_rem2 reactjs2"></div>
                                     </div>
                                 </div>
 
                                 <div className="skil_content__main_cont">
                                     <p>CSS3</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 reactjs1"></div>
+                                        <div className="s_rem2 reactjs2"></div>
                                     </div>
                                 </div>
 
                                 <div className="skil_content__main_cont">
                                     <p>JavaScript</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 reactjs1"></div>
+                                        <div className="s_rem2 reactjs2"></div>
                                     </div>
                                 </div>
 
@@ -264,8 +264,8 @@ function Home() {
                                 <div className="skil_content__main_cont">
                                     <p>Core Java</p>
                                     <div className="skil_content_cont">
-                                        <div className="s_rem1"></div>
-                                        <div className="s_rem2"></div>
+                                        <div className="s_rem1 reactjs1"></div>
+                                        <div className="s_rem2 reactjs2"></div>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +341,7 @@ function Home() {
                                 <td>
                                     <div className="project_buttons">
                                         <a href="https://skycourse.skynoveau.in"><button>Link</button></a>
-                                        <a href="https://skycourse.skynoveau.in"><button>Demo</button></a>
+                                        <a href="https://www.linkedin.com/posts/karthik-b-736308209_html5-css-js-activity-6977863714578264064-Sec0?utm_source=share&utm_medium=member_desktop"><button>Demo</button></a>
                                     </div>
                                 </td>
                             </tr>
@@ -363,7 +363,7 @@ function Home() {
                                 <td>
                                     <div className="project_buttons">
                                         <a href="https://calc.skynoveau.in/"><button>Link</button></a>
-                                        <a href="https://calc.skynoveau.in/"><button>Demo</button></a>
+                                        <a href="https://www.linkedin.com/posts/karthik-b-736308209_calculator-html5-css-activity-6991055538457333760-YaAH?utm_source=share&utm_medium=member_desktop"><button>Demo</button></a>
                                     </div>
                                 </td>
                             </tr>
@@ -385,7 +385,7 @@ function Home() {
                                 <td>
                                     <div className="project_buttons">
                                         <a href="https://skytrip.skynoveau.in/"><button>Link</button></a>
-                                        <a href="https://skytrip.skynoveau.in/"><button>Demo</button></a>
+                                        <a href="https://www.linkedin.com/posts/karthik-b-736308209_flight-frontenddevelopment-reactjs-activity-7008039148657790976-JrL3?utm_source=share&utm_medium=member_desktop"><button>Demo</button></a>
                                     </div>
                                 </td>
                             </tr>
@@ -414,7 +414,7 @@ function Home() {
 
                         <table className="edu_table">
                             <tr>
-                                <td>Quiz Application - Ongoing project... </td>
+                                <td>Quiz Application</td>
                                 <td className="edu_td project_td"><button>2021-2022</button></td>
                             </tr>
                             <tr>
@@ -426,8 +426,8 @@ function Home() {
                             <tr>
                                 <td>
                                     <div className="project_buttons">
-                                        <a href="#"><button>Link</button></a>
-                                        <a href="#"><button>Demo</button></a>
+                                        <a href="https://quiz.skynoveau.in/"><button>Link</button></a>
+                                        <a href="https://www.linkedin.com/posts/karthik-b-736308209_quiz-javascriptdeveloper-frontend-activity-7012753757247606784-889-?utm_source=share&utm_medium=member_desktop"><button>Demo</button></a>
                                     </div>
                                 </td>
                             </tr>

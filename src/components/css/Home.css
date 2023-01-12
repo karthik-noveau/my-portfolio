@@ -151,8 +151,6 @@
     margin-top: 2px;
 }
 
-
-
 /* title- about me */
 .aboutme_title_container {
     display: flex;
@@ -192,10 +190,6 @@
     background-color: #ff5823;
     border-radius: 10px;
 }
-
-
-
-
 
 /* about me */
 .abt_main_cont {
@@ -263,6 +257,7 @@
     align-items: center;
     margin-top: 40px;
 }
+
 .abt_button_cont a:first-child {
     width: 162px;
     margin: 0px 20px;
@@ -270,12 +265,13 @@
     padding: 13px 0px;
     font-weight: 700;
     font-size: 14px;
-    background-color:#24263b;
+    background-color: #24263b;
     color: white !important;
     text-align: center;
     outline: 3px solid white;
 }
-.abt_button_cont a:first-child:hover{
+
+.abt_button_cont a:first-child:hover {
     outline: 3px solid #ff5823;
 }
 
@@ -306,10 +302,48 @@
     width: 160px;
     text-align: center;
 }
-
-
-
-
+/* why-choose-me */
+.whyChooseMe{
+    width: 100% !important;
+}
+.whyChooseMe a:first-child {
+    width: 90px;
+    margin: 0px 20px;
+    border-radius: 25px;
+    padding: 6px 0px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #24263b;
+    color: white !important;
+    text-align: center;
+    outline: 3px solid white;
+}
+.whyChooseMe a:last-child {
+    width:90px;
+    margin: 0px 20px;
+    border-radius: 25px;
+    padding:6.5px 0px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #ff5823;
+    color: white !important;
+    text-align: center;
+    outline: 3px solid white;
+}
+.whyChooseMe a:first-child button {
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    width: 90px;
+    text-align: center;
+}
+.whyChooseMe a:last-child button {
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    width: 91px;
+    text-align: center;
+}
 
 /* education */
 .edu_cont {
@@ -407,9 +441,6 @@ td {
     position: relative;
     top: -25px;
 }
-
-
-
 
 /* skills */
 .skill_cont {
@@ -510,8 +541,6 @@ td {
     margin-right: 68px;
 }
 
-
-
 /* project */
 
 .porject_cont {
@@ -545,9 +574,6 @@ td {
 .project_content table {
     margin-top: -187px !important;
 }
-
-
-
 
 /* contact  */
 .contact_cont {
@@ -588,9 +614,6 @@ td {
     padding: 0px 0px 0px 10px;
     margin-top: 60px;
 }
-
-
-
 
 /* footer */
 
@@ -668,10 +691,6 @@ td {
         height: 800px;
     }
 
-
-
-
-
     /* about me -res */
     .abt_cont {
         width: 85%;
@@ -702,10 +721,6 @@ td {
     .highlights_cont ul li {
         font-size: 14px;
     }
-
-
-
-
 
     /* res-education */
     .edu_cont {
@@ -779,8 +794,6 @@ td {
         top: -28px;
         font-size: 13px;
     }
-
-
 
     /* res-skills */
 
@@ -864,10 +877,7 @@ td {
         margin-top: -72px;
     }
 
-
-
     /* res- projects */
-
 
     .project_td {
         position: relative;
@@ -888,10 +898,7 @@ td {
         top: -3px;
     }
 
-
-
     /* res- contact */
-
 
     .contact_main_cont {
         flex-direction: column;
@@ -931,9 +938,6 @@ td {
         margin-top: -12px;
     }
 
-
-
-
     /* res-footer */
 
     .footer {
@@ -946,46 +950,60 @@ td {
         padding: 21px 0px 1px 0px;
     }
 
+}
 
-}
-@media(max-width:425px){
+@media(max-width:425px) {
     .abt_button_cont a:first-child {
         width: 154px;
         margin: 0px 20px;
-        padding:7px 0;
+        padding: 7px 0;
         font-weight: 700;
         font-size: 14px;
     }
+
     .abt_button_cont a:last-child {
         width: 154px;
-        margin: 0px 20px;
-        padding:9px 0;
-        font-weight: 700;
-        font-size: 14px;
-    }
-    .abt_button_cont {
-        margin-top: 13px;
-    }
-}
-@media(max-width:375px){
-    .abt_button_cont a:first-child {
-        width:130px;
-        margin: 0px 20px;
-        padding:7px 0;
-        font-weight: 700;
-        font-size: 14px;
-    }
-    .abt_button_cont a:last-child {
-        width:130px;
         margin: 0px 20px;
         padding: 9px 0;
         font-weight: 700;
         font-size: 14px;
     }
+    .whyChooseMe a:last-child {
+        width: 154px;
+        margin: 0px 20px;
+        padding: 7px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
     .abt_button_cont {
         margin-top: 13px;
     }
-    .abt_button_cont a:first-child button, .abt_button_cont a:last-child button{
+}
+
+@media(max-width:375px) {
+    .abt_button_cont a:first-child {
+        width: 130px;
+        margin: 0px 20px;
+        padding: 7px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .abt_button_cont a:last-child {
+        width: 130px;
+        margin: 0px 20px;
+        padding: 9px 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .abt_button_cont {
+        margin-top: 13px;
+    }
+
+    .abt_button_cont a:first-child button,
+    .abt_button_cont a:last-child button {
         width: 130px;
     }
 }

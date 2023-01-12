@@ -90,7 +90,7 @@ function Home() {
 
                                 </ul>
                             </div>
-                            <div className='abt_button_cont'>
+                            <div className='abt_button_cont whyChooseMe'>
                                 <a href="#contact"><button>Hire Me</button></a>
                                 <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Karthik_B_Resume_new.pdf?alt=media&token=0ef255c4-675f-4d13-af68-551c27033e4d" download> <button>Get Resume</button></a>
                             </div>

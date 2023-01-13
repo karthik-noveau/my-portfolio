@@ -41,7 +41,7 @@ function Home() {
                             </div>
                             <div className='abt_button_cont'>
                                 <a href="#contact"><button>Hire Me</button></a>
-                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Resume-Kar.pdf?alt=media&token=4266bbf0-2f0f-42ca-b001-4a9f810e6e3e" download> <button>Get Resume</button></a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Resume-Kar.docx.pdf?alt=media&token=c11f50ed-181e-4f6f-9f95-4226e8b27bd0" download> <button>Get Resume</button></a>
                             </div>
                         </div>
                         <div className="pro_img_cont">
@@ -92,7 +92,7 @@ function Home() {
                             </div>
                             <div className='abt_button_cont whyChooseMe'>
                                 <a href="#contact"><button>Hire Me</button></a>
-                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Resume-Kar.pdf?alt=media&token=4266bbf0-2f0f-42ca-b001-4a9f810e6e3e" download> <button>Get Resume</button></a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/personal---portfolio.appspot.com/o/Resume-Kar.docx.pdf?alt=media&token=c11f50ed-181e-4f6f-9f95-4226e8b27bd0" download> <button>Get Resume</button></a>
                             </div>
                         </div>
                     </div>
